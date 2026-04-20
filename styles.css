@@ -1,0 +1,85 @@
+* { box-sizing: border-box; }
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 2rem;
+}
+
+.card {
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    text-align: center;
+    max-width: 480px;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+h1 { margin-bottom: 0.25rem; }
+p  { margin-bottom: 1.5rem; }
+
+.back {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.back:hover { text-decoration: underline; }
+
+/* index page */
+.index-page body { background: #565845; }
+.index-page .card { background: #f2cc72; color: #3d2824; }
+.index-page h1 { color: #3d2824; }
+
+.links { display: flex; flex-direction: column; gap: 0.75rem; }
+.links a {
+    display: block;
+    padding: 0.65rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: opacity 0.15s;
+}
+.links a:hover { opacity: 0.85; }
+.s1 { background: #059b91; color: #fdebd0; }
+.s2 { background: #4a2323; color: #f5b7b1; }
+.s3 { background: #1e3b25; color: #a9dfbf; }
+.s4 { background: #3b2c4a; color: #d7bde2; }
+.s5 { background: #2c3e50; color: #aed6f1; }
+
+/* site pages */
+.site1 body  { background: #059b91; }
+.site1 .card { background: #fdebd0; color: #ca5608; }
+.site1 h1    { color: #ca5608; }
+.site1 .back { color: #ca5608; }
+
+.site2 body  { background: #4a2323; }
+.site2 .card { background: #f5b7b1; color: #641e16; }
+.site2 h1    { color: #641e16; }
+.site2 .back { color: #641e16; }
+
+.site3 body  { background: #1e3b25; }
+.site3 .card { background: #a9dfbf; color: #145a32; }
+.site3 h1    { color: #145a32; }
+.site3 .back { color: #145a32; }
+
+.site4 body  { background: #3b2c4a; }
+.site4 .card { background: #d7bde2; color: #4a235a; }
+.site4 h1    { color: #4a235a; }
+.site4 .back { color: #4a235a; }
+
+.site5 body  { background: #2c3e50; }
+.site5 .card { background: #aed6f1; color: #1b4f72; }
+.site5 h1    { color: #1b4f72; }
+.site5 .back { color: #1b4f72; }
